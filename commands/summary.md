@@ -8,7 +8,7 @@ Summary of Bash Lesson
  - ```~``` home directrory
  - ```;``` allows you to write multiple commands in one line
 
-Note: some symbols are reserved like ```!!``` double-exclamation mark results in command repeatition
+__Note:__ some symbols are reserved like ```!!``` double-exclamation mark results in command repeatition
 
 ## Bash Commands
  - ```echo hello``` prints hello on shell
@@ -35,4 +35,4 @@ Note: some symbols are reserved like ```!!``` double-exclamation mark results in
  - ```*Foo*``` all files containg __Foo__ key-word
  - ```*Bar*.[extenstion]``` all files containing __Bar__ key-word and having given extension 
 
-Note: Bash is case-sensitive 
+__Note:__ Bash is case-sensitive. ```cd /Desktop``` and ```cd /desktop``` are not equal 

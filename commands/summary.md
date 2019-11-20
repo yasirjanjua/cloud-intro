@@ -14,6 +14,7 @@ __Note:__ some symbols are reserved like ```!!``` double-exclamation mark result
 
 ## Bash Commands
  - ```echo hello``` prints hello on shell
+ - ```history``` shows a list of the last group of commands you've run
  - ```$path='./Desktop' ``` declares a variable with value './Desktop'  
  - ```cd $path``` navigates to the mentioned directory
  - ```pwd``` prints working directory

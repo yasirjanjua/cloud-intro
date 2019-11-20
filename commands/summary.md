@@ -2,6 +2,8 @@
 Summary of Bash Lesson
 ======================
 
+![](bash-header.png)
+
 ## Symbols
  - ```.``` working directory (current) 
  - ```..``` parent directory

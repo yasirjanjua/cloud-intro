@@ -4,6 +4,14 @@ Summary of Bash Lesson
 
 ![](bash-header.png)
 
+## Table of Content
+
+ - [Symbols](#Symbols)
+ - [Bash-Commands](#Bash-Commands)
+ - [Patterns](#Patterns)
+
+
+
 ## Symbols
  - ```.``` working directory (current)
  - ```..``` parent directory

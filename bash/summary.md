@@ -7,10 +7,9 @@ Summary of Bash Lesson
 ## Table of Content
 
  - [Symbols](#Symbols)
- - [Bash-Commands](#Bash-Commands)
- - [Patterns](#Patterns)
-
-
+ - [Bash Commands](#Bash-Commands)
+ - [File Patterns](#Patterns)
+ - [Additional Resources](#Additional-Resources)
 
 ## Symbols
  - ```.``` working directory (current)
@@ -48,3 +47,8 @@ __Note:__ some symbols are reserved like ```!!``` double-exclamation mark result
  - ```*Bar*.[extenstion]``` all files containing __Bar__ key-word and having given extension
 
 __Note:__ Bash is case-sensitive. ```cd /Desktop``` and ```cd /desktop``` are not equal
+
+## Additional Resources
+ - [The Bash Academy](http://www.bash.academy/)
+ - [Bash Beginners Guide](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/)
+ - [Bash Programming HOWTO](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)

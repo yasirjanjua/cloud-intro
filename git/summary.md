@@ -46,6 +46,14 @@ Summary of Git Lessons
     lists the available tags on current branch.
       - ```-a <tag> <SHA>``` adds a tag __<tag>__ on given commit __<SHA>__. ```<SHA>``` is optional, if not provided then tag is added to the current commit
       - ```-d <tag>``` deletes a tag by given tag __<tag>__ name
+  - ```git branch```
+    list all the branches available on a repo.
+      - ```<branch-name>``` creates a new branch with given __branch-name__
+      - ```-d <branch-name>``` deletes the branch by given __branch-name__
+  - ```git checkout <branch-name>```
+    switches to given __branch-name__
+      - ```-b <branch-name>``` creates a new branch by the given name and switches to it in single command
+
 
 
 

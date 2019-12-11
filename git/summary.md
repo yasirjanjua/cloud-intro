@@ -37,6 +37,9 @@ Summary of Git Lessons
   - ```git add <file1> <file2> ... <fileN>```
     move files from the Working Directory to the Staging Index.
     Alternatively, the period ```.``` can be used in place of a list of files to tell Git to add the current directory.
+  - ```git commit```
+    takes files from the Staging Index and saves them in the repository. It opens the code editor that is specified in your configuration to take the commit message.
+      - ```-m``` flag __bypass the Editor__(if configured) by taking the commit message in same line. e.g ```git commit __-m__ *"commit message"*```
 
 
 

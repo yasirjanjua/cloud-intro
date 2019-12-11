@@ -32,6 +32,7 @@ Summary of Git Lessons
       - ```--stat``` is used to list detailed info (__files__, __no.of.lines__, __summary__) per commit.
       -  ```--patch``` or ```-p``` is used to list __actual changes__, __location of lines__ and __modified files__ per commit.
       - ```-w``` is used to ignore whitespaces from the changes per commit
+      - ```--graph --all``` displays tree view of all branches
   - ```git show <SHA>```
     displays the commit by the given __SHA__. First seven digits of SHA are enough to identify commit. All of the flags mentioned with ```git log``` command can be used with it.
   - ```git add <file1> <file2> ... <fileN>```

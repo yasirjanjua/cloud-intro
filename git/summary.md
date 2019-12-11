@@ -41,7 +41,11 @@ Summary of Git Lessons
     takes files from the Staging Index and saves them in the repository. It opens the code editor that is specified in your configuration to take the commit message.
       - ```-m``` flag __bypass the Editor__(if configured) by taking the commit message in same line. e.g ```git commit __-m__ *"commit message"*```
   - ```git diff```
-    show changes that have been made but haven't been committed
+    shows changes that have been made but haven't been committed
+  - ```git tag```
+    lists the available tags on current branch.
+      - ```-a <tag> <SHA>``` adds a tag __<tag>__ on given commit __<SHA>__. ```<SHA>``` is optional, if not provided then tag is added to the current commit
+      - ```-d <tag>``` deletes a tag by given tag __<tag>__ name
 
 
 
@@ -55,7 +59,7 @@ Summary of Git Lessons
   - __[abc]__ matches a, b, _or_ c
   - __**__ matches nested directories
     - a/**/z matches
-      ```a/z```, 
+      ```a/z```,
       ```a/b/z```,
       ``a/b/c/z``
 

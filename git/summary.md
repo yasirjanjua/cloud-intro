@@ -34,6 +34,10 @@ Summary of Git Lessons
       - ```-w``` is used to ignore whitespaces from the changes per commit
   - ```git show <SHA>```
     displays the commit by the given __SHA__. First seven digits of SHA are enough to identify commit. All of the flags mentioned with ```git log``` command can be used with it.
+  - ```git add <file1> <file2> ... <fileN>```
+    move files from the Working Directory to the Staging Index.
+    Alternatively, the period ```.``` can be used in place of a list of files to tell Git to add the current directory.
+
 
 
 

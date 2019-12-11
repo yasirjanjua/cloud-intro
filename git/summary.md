@@ -45,7 +45,19 @@ Summary of Git Lessons
 
 
 
-
+## Git Ignore
+  ```.gitignore``` file is used to tell Git about the files that Git should not track. This file should be placed in the same directory that the ```.git``` directory is in.
+  In the ```.gitignore``` file, you can use the following:
+  blank lines can be used for spacing
+  - __#__ marks line as a comment
+  - __*__ matches 0 or more characters
+  - __?__ matches 1 character
+  - __[abc]__ matches a, b, _or_ c
+  - __**__ matches nested directories
+    - a/**/z matches
+      ```a/z```, 
+      ```a/b/z```,
+      ``a/b/c/z``
 
 
 

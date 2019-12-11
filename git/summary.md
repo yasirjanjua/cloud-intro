@@ -39,7 +39,7 @@ Summary of Git Lessons
     Alternatively, the period ```.``` can be used in place of a list of files to tell Git to add the current directory.
   - ```git commit```
     takes files from the Staging Index and saves them in the repository. It opens the code editor that is specified in your configuration to take the commit message.
-      - ```-m``` flag __bypass the Editor__(if configured) by taking the commit message in same line. e.g ```git commit __-m__ *"commit message"*```
+      - ```-m``` flag __bypass the Editor__(if configured) by taking the commit message in same line. e.g ```git commit -m "commit message"```
   - ```git diff```
     shows changes that have been made but haven't been committed
   - ```git tag```

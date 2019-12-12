@@ -59,7 +59,12 @@ Summary of Git Lessons
       - ```-b <branch-name>``` creates a new branch by the given name and switches to it in single command
   - ```git revert <SHA>```
     reverts a commit by the given __<SHA>__
-
+  - ```git reset <reference-to-commit>```
+    move the HEAD and current branch pointer to the __<referenced commit>__
+    - ```--hard``` erases the commits
+    - ```--soft``` moves the committed changes to staging index
+    - ```--mixed``` moves the changes to the working directory. It is optional which means if no flag is provided ```--mixed``` is used by-default
+    - It is good to make a __backup branch__ by ```git branch backup```. So that you can fast-forward merge it to the tip
 
 
 ## Git Ignore

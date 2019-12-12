@@ -8,6 +8,8 @@ Summary of Git Lessons
  - [Introduction](#Introduction)
  - [Important Terms](#Important-Terminologies)
  - [Commands](#Commands)
+ - [Git Ignore Understanding](#Git-Ignore)
+ - [Commit Referencing](#Commit-References)
 
 ## Intoduction
  Git is a source code manager (SCM) which is another name of version control system (VCM). It is a decentralized where each user has the entire repository on their computer.
@@ -74,5 +76,27 @@ Summary of Git Lessons
       ```a/b/z```,
       ``a/b/c/z``
 
+## Commit-References
+  Here are special characters called "Ancestry References" that we can use to tell Git about these relative references. Those characters are:
+  - ```^``` indicates the parent commit
+  - ```~``` indicates the first parent commit
+  Here's how we can refer to previous commits:
 
+  ### The Parent Commit
+  The following indicate the parent commit of the current commit
+  - ```HEAD^```
+  - ```HEAD~```
+  - ```HEAD~1```
+
+  ### The Grandparent Commit
+  The following indicate the grandparent commit of the current commit
+  - ```HEAD^^```
+  - ``HEAD~2``
+
+  ### The Great-Grandparent Commit
+  The following indicate the great-grandparent commit of the current commit
+  - ```HEAD^^^```
+  - ```HEAD~3```
+
+  The main difference between the ```^``` and the ```~``` is when a commit is created from a merge. A merge commit has two parents. With a merge commit, the ```^``` reference is used to indicate the first parent of the commit while ```^2``` indicates the second parent. The first parent is the branch you were on when you ran git merge while the second parent is the branch that was merged in
 

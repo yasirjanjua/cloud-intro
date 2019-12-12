@@ -55,7 +55,8 @@ Summary of Git Lessons
   - ```git checkout <branch-name>```
     switches to given __branch-name__
       - ```-b <branch-name>``` creates a new branch by the given name and switches to it in single command
-
+  - ```git revert <SHA>```
+    reverts a commit by the given __<SHA>__
 
 
 

@@ -10,6 +10,8 @@ Summary of Git Lessons
  - [Commands](#Commands)
  - [Git Ignore Understanding](#Git-Ignore)
  - [Commit Referencing](#Commit-References)
+ - [Remotes](#Remotes)
+ - [Additional Resources](#Resources)
 
 ## Intoduction
  Git is a source code manager (SCM) which is another name of version control system (VCM). It is a decentralized where each user has the entire repository on their computer.
@@ -105,3 +107,6 @@ Summary of Git Lessons
 
   The main difference between the ```^``` and the ```~``` is when a commit is created from a merge. A merge commit has two parents. With a merge commit, the ```^``` reference is used to indicate the first parent of the commit while ```^2``` indicates the second parent. The first parent is the branch you were on when you ran git merge while the second parent is the branch that was merged in
 
+## Resources
+  - [Dotfiles](https://dotfiles.github.io/)
+  - [Learn Git from app](https://github.com/jlord/git-it-electron)

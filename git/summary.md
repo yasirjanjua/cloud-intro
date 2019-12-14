@@ -67,6 +67,11 @@ Summary of Git Lessons
     - ```--soft``` moves the committed changes to staging index
     - ```--mixed``` moves the changes to the working directory. It is optional which means if no flag is provided ```--mixed``` is used by-default
     - It is good to make a __backup branch__ by ```git branch backup```. So that you can fast-forward merge it to the tip
+  - ```git remote```
+    list the available remotes on a repo in short form.
+    - ```-v``` list the detail about connection to the avilable remotes.
+    - ```add <remote-name> <url>``` adds remote of <remote-name> to the current repo
+  
 
 
 ## Git Ignore

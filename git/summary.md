@@ -37,6 +37,7 @@ Summary of Git Lessons
       -  ```--patch``` or ```-p``` is used to list __actual changes__, __location of lines__ and __modified files__ per commit.
       - ```-w``` is used to ignore whitespaces from the changes per commit
       - ```--graph --all``` displays tree view of all branches
+      - ```--stat``` shows the files that have been changed and how many lines were added or removed in them
   - ```git show <SHA>```
     displays the commit by the given __SHA__. First seven digits of SHA are enough to identify commit. All of the flags mentioned with ```git log``` command can be used with it.
   - ```git add <file1> <file2> ... <fileN>```
@@ -71,7 +72,7 @@ Summary of Git Lessons
     list the available remotes on a repo in short form.
     - ```-v``` list the detail about connection to the avilable remotes.
     - ```add <remote-name> <url>``` adds remote of <remote-name> to the current repo
-  
+  - ```git push <remote-shortname> <branch>``` push the changes from given __<branch>__ to the remote repository __<remote-shorname>__
 
 
 ## Git Ignore

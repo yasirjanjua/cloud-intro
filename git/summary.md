@@ -72,7 +72,9 @@ Summary of Git Lessons
     list the available remotes on a repo in short form.
     - ```-v``` list the detail about connection to the avilable remotes.
     - ```add <remote-name> <url>``` adds remote of <remote-name> to the current repo
-  - ```git push <remote-shortname> <branch>``` push the changes from given __<branch>__ to the remote repository __<remote-shorname>__
+  - ```git push <remote-shortname> <branch>``` push the changes from given branch __<branch>__ to the remote repository __<remote-shorname>__
+  - ```git pull <remote-shortname> <branch>``` get the changes of given branch __<branch>__ from the remote repository __<remote-shorname>__
+  
 
 
 ## Git Ignore

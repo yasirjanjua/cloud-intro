@@ -38,6 +38,7 @@ Summary of Git Lessons
       - ```-w``` is used to ignore whitespaces from the changes per commit
       - ```--graph --all``` displays tree view of all branches
       - ```--stat``` shows the files that have been changed and how many lines were added or removed in them
+      - ```--author``` filters the commit by the author name e.g ```git log --author=paul```
   - ```git show <SHA>```
     displays the commit by the given __SHA__. First seven digits of SHA are enough to identify commit. All of the flags mentioned with ```git log``` command can be used with it.
   - ```git add <file1> <file2> ... <fileN>```

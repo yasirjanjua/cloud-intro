@@ -75,7 +75,10 @@ Summary of Git Lessons
   - ```git push <remote-shortname> <branch>``` push the changes from given branch __<branch>__ to the remote repository __<remote-shorname>__
   - ```git pull <remote-shortname> <branch>``` get the changes of given branch __<branch>__ from the remote repository __<remote-shorname>__ and merge to local
   - ```git fetch <remote-shortname> <branch>``` get the changes of given branch __<branch>__ from the remote repository __<remote-shorname>__ but do not merge the changes to the local-repo
-
+  - ```git shortlog```
+    displays an alphabetical list of names and the commit messages that go along with them
+    - ```-n``` shows the number of commits (rather than each commit's message)
+    - ```-s``` sorts the commits numerically (rather than alphabetically by author name).
 
 
 ## Git Ignore

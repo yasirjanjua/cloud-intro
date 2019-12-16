@@ -39,6 +39,7 @@ Summary of Git Lessons
       - ```--graph --all``` displays tree view of all branches
       - ```--stat``` shows the files that have been changed and how many lines were added or removed in them
       - ```--author``` filters the commit by the author name e.g ```git log --author=paul```
+      - ```--grep=<key-phrase>``` filters the commit by the given __key-phrase__. e.g ```git log --grep="css bug"```
   - ```git show <SHA>```
     displays the commit by the given __SHA__. First seven digits of SHA are enough to identify commit. All of the flags mentioned with ```git log``` command can be used with it.
   - ```git add <file1> <file2> ... <fileN>```

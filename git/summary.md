@@ -53,19 +53,19 @@ Summary of Git Lessons
     shows changes that have been made but haven't been committed
   - ```git tag```
     lists the available tags on current branch.
-      - ```-a <tag> <SHA>``` adds a tag __<tag>__ on given commit __<SHA>__. ```<SHA>``` is optional, if not provided then tag is added to the current commit
-      - ```-d <tag>``` deletes a tag by given tag __<tag>__ name
+      - ```-a <tag> <SHA>``` adds a __tag__ on given commit __SHA__. ```<SHA>``` is optional, if not provided then tag is added to the current commit
+      - ```-d <tag>``` deletes a tag by given __tag__ name
   - ```git branch```
     list all the branches available on a repo.
       - ```<branch-name>``` creates a new branch with given __branch-name__
       - ```-d <branch-name>``` deletes the branch by given __branch-name__
   - ```git checkout <branch-name>```
     switches to given __branch-name__
-      - ```-b <branch-name>``` creates a new branch by the given name and switches to it in single command
+      - ```-b <branch-name>``` creates a new branch by the given __branch-name__ and switches to it in single command
   - ```git revert <SHA>```
-    reverts a commit by the given __<SHA>__
+    reverts a commit by the given __SHA__
   - ```git reset <reference-to-commit>```
-    move the HEAD and current branch pointer to the __<referenced commit>__
+    move the HEAD and current branch pointer to the __referenced commit__
     - ```--hard``` erases the commits
     - ```--soft``` moves the committed changes to staging index
     - ```--mixed``` moves the changes to the working directory. It is optional which means if no flag is provided ```--mixed``` is used by-default
@@ -73,11 +73,11 @@ Summary of Git Lessons
   - ```git remote```
     list the available remotes on a repo in short form.
     - ```-v``` list the detail about connection to the avilable remotes.
-    - ```add <remote-name> <url>``` adds remote of <remote-name> to the current repo
+    - ```add <remote-name> <url>``` adds remote of __remote-name__ to the current repo
     - ```rename <old-name> <new-name>``` renames the __old-name__ with the __new-name__.
-  - ```git push <remote-shortname> <branch>``` push the changes from given branch __<branch>__ to the remote repository __<remote-shorname>__
-  - ```git pull <remote-shortname> <branch>``` get the changes of given branch __<branch>__ from the remote repository __<remote-shorname>__ and merge to local
-  - ```git fetch <remote-shortname> <branch>``` get the changes of given branch __<branch>__ from the remote repository __<remote-shorname>__ but do not merge the changes to the local-repo
+  - ```git push <remote-shortname> <branch>``` push the changes from given __branch__ to the remote repository __remote-shorname__
+  - ```git pull <remote-shortname> <branch>``` get the changes of given __branch__ from the remote repository __remote-shorname__ and merge to local
+  - ```git fetch <remote-shortname> <branch>``` get the changes of given __branch__ from the remote repository __remote-shorname__ but do not merge the changes to the local-repo
   - ```git shortlog```
     displays an alphabetical list of names and the commit messages that go along with them
     - ```-n``` shows the number of commits (rather than each commit's message)
